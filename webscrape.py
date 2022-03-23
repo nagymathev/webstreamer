@@ -11,7 +11,7 @@ def find_link(soup, substring):
 
 the_input_for_search = input("Search: ")
 
-URL = f"https://1337x.to/search/{the_input_for_search}/1/"
+URL = f"https://1337x.to/category-search/{the_input_for_search}/Movies/1/"
 h = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0"
 }
