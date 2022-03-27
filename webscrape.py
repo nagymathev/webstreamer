@@ -34,9 +34,9 @@ for i in link:
 
 first10_title = stripped_links[0:10]
 for i, x in enumerate(first10_title):
-    print('{0}. {1}'.format(i, repr(x)))
+    print('{0}. {1}'.format(i + 1, repr(x)))
 
-movie_select = int(input("Select the index of the movie you would like to watch: "))
+movie_select = int(input("Select the index of the movie you would like to watch: ")) - 1
 selected_movie = link[0][movie_select]
 
 r = requests.get(f"https://1337x.to{selected_movie}", headers=h)
