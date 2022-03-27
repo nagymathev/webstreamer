@@ -1,0 +1,22 @@
+{
+  "name": "webstreamer",
+  "version": "1.0.0",
+  "description": "Stream any movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagymathev/webstreamer.git"
+  },
+  "author": "nagymathev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagymathev/webstreamer/issues"
+  },
+  "homepage": "https://github.com/nagymathev/webstreamer#readme",
+  "dependencies": {
+    "webtorrent": "^1.8.11"
+  }
+}
