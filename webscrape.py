@@ -51,6 +51,3 @@ process = subprocess.Popen(["webtorrent", magnet_link, "--vlc"],
                      stderr=subprocess.PIPE)
 stdout, stderr = process.communicate()
 stdout, stderr
-
-print(stdout)
-print(stderr)
